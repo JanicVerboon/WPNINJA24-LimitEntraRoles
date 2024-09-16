@@ -1,7 +1,5 @@
 #Requires -Modules Microsoft.Graph.Authenticaion,Microsoft.Graph.Beta.DeviceManagement.Administration,Microsoft.Graph.Groups
 
-#$AllIntuneRoles = Get-MgBetaDeviceManagementRoleDefinition -Property Id, DisplayName, IsBuiltIn -RoleDefinitionId "2706b141-0801-4c90-bdaa-91234e490df1"
-
 $graphURL = "https://graph.microsoft.com/beta/deviceManagement"
 
 $RBACReportDetailed = [System.Collections.Generic.List[PSCustomObject]]::new() 
